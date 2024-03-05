@@ -37,6 +37,9 @@ http benchmark tool to ran out your server bandwidth.
     wget https://github.com/maintell/webBenchmark/releases/download/0.5/webBenchmark_linux_x64
     chmod +x webBenchmark_linux_x64
     ./webBenchmark_linux_x64 -c 32 -s https://target.url
+#32线程
+#源站服务器显示有32个请求
+
 
 ## Advanced example
     # send request to 10.0.0.1 and 10.0.0.2 for https://target.url with 32 concurrent threads 
